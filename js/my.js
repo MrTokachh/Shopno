@@ -38,6 +38,10 @@ function initBurger() {
 	$('.menu-item').on('click', function() {
 		menu.removeClass('active');
 	});
+
+	$('.menu-close').on('click', function() {
+		event.preventDefault();
+	});
 }
 
 function initPopup() {

@@ -10580,14 +10580,14 @@ ul {
   border-color: #606061;
 }
 
-.menu-list li:last-child {
+.menu-list a {
+  display: block;
+}
+
+.menu-list .menu-close {
   border-bottom: none;
   font-size: 20px;
   font-weight: 700;
-}
-
-.menu-list a {
-  display: block;
 }
 
 .burger-menu {
@@ -10632,7 +10632,7 @@ ul {
 }
 
 .intro-section .btn {
-  max-width: 232px;
+  min-width: 232px;
   padding: 8px 25px;
   border-radius: 0px;
   border: 2px solid #777879;
